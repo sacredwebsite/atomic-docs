@@ -1289,7 +1289,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     position: absolute;
     width: 100%;
     transition: all .25s;
-    top: 0;
+    top: 10%;
     z-index: -1; }
   #atomsWrap .atomic-editorWrap-active {
     margin-bottom: 95px; }
@@ -1315,6 +1315,8 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     text-align: center;
     margin-bottom: 48px;
     margin-top: 75px; }
+  #atomsWrap .codeBlocks {
+    clear: both; }
   #atomsWrap :not(pre) > code[class*="language-"],
   #atomsWrap pre[class*="language-"] {
     background: #E2F3F5;
