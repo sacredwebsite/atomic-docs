@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "component": "test-component",
+        "category": "test-category",
+        "description": "test-description",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "true"
+    }
+]
