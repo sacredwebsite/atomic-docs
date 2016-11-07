@@ -9,138 +9,210 @@
     },
     {
         "component": "Abide",
-        "category": "Foundation-Sites",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "true"
+    },
+    {
+        "component": "Accordian",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "true"
+    },
+    {
+        "component": "AccordionMenu",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 2,
         "has_js": "true"
     },
     {
-        "component": "Accordian",
-        "category": "Foundation-Sites",
+        "component": "Badge",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 3,
-        "has_js": "true"
+        "has_js": "false"
     },
     {
-        "component": "AccordionMenu",
-        "category": "Foundation-Sites",
+        "component": "Breadcrumbs",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 4,
-        "has_js": "true"
+        "has_js": "false"
     },
     {
-        "component": "Badge",
-        "category": "Foundation-Sites",
+        "component": "Button",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 5,
         "has_js": "false"
     },
     {
-        "component": "Breadcrumbs",
-        "category": "Foundation-Sites",
+        "component": "ButtonGroup",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 6,
         "has_js": "false"
     },
     {
-        "component": "Button",
-        "category": "Foundation-Sites",
+        "component": "Callout",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 7,
         "has_js": "false"
     },
     {
-        "component": "ButtonGroup",
-        "category": "Foundation-Sites",
+        "component": "CloseButton",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 8,
         "has_js": "false"
     },
     {
-        "component": "Callout",
-        "category": "Foundation-Sites",
+        "component": "DrilldownMenu",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 9,
-        "has_js": "false"
+        "has_js": "true"
     },
     {
-        "component": "CloseButton",
-        "category": "Foundation-Sites",
+        "component": "DropdownMenu",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 10,
-        "has_js": "false"
+        "has_js": "true"
     },
     {
-        "component": "DrilldownMenu",
-        "category": "Foundation-Sites",
+        "component": "DropdownPane",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 11,
         "has_js": "true"
     },
     {
-        "component": "DropdownMenu",
-        "category": "Foundation-Sites",
+        "component": "Equalizer",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 12,
         "has_js": "true"
     },
     {
-        "component": "DropdownPane",
-        "category": "Foundation-Sites",
+        "component": "FlexGrid",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 13,
-        "has_js": "true"
+        "has_js": "false"
     },
     {
-        "component": "Equalizer",
-        "category": "Foundation-Sites",
+        "component": "FlexVideo",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 14,
-        "has_js": "true"
+        "has_js": "false"
     },
     {
-        "component": "FlexGrid",
-        "category": "Foundation-Sites",
+        "component": "FloatClasses",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
         "order": 15,
         "has_js": "false"
     },
     {
-        "component": "FlexVideo",
-        "category": "Foundation-Sites",
+        "component": "Grid",
+        "category": "Foundation-Sites-Grid",
         "description": "",
         "backgroundColor": "",
-        "order": 16,
+        "order": 19,
         "has_js": "false"
     },
     {
-        "component": "FloatClasses",
-        "category": "Foundation-Sites",
+        "component": "Interchange",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
-        "order": 17,
+        "order": 19,
+        "has_js": "true"
+    },
+    {
+        "component": "Label",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 20,
         "has_js": "false"
     },
     {
-        "component": "Forms",
-        "category": "Foundation-Sites",
+        "component": "Magellan",
+        "category": "Foundation-Sites-Components",
         "description": "",
         "backgroundColor": "",
-        "order": 18,
+        "order": 21,
+        "has_js": "true"
+    },
+    {
+        "component": "MediaObject",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 22,
+        "has_js": "false"
+    },
+    {
+        "component": "Menu",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 23,
+        "has_js": "false"
+    },
+    {
+        "component": "MenuIcon",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 24,
+        "has_js": "false"
+    },
+    {
+        "component": "Off-canvas",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 25,
+        "has_js": "true"
+    },
+    {
+        "component": "Orbit",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 26,
+        "has_js": "true"
+    },
+    {
+        "component": "Pagination",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 27,
         "has_js": "false"
     }
 ]

@@ -1,0 +1,10 @@
+/* scss/Foundation-Sites-Components/_MenuIcon.scss */
+@mixin foundation-menu-icon {
+  .menu-icon {
+    @include hamburger($color: $titlebar-icon-color, $color-hover: $titlebar-icon-color-hover);
+  }
+
+  .menu-icon.dark {
+    @include hamburger;
+  }
+}

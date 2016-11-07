@@ -4,7 +4,15 @@
         "order": 1
     },
     {
-        "category": "Foundation-Sites",
+        "category": "Foundation-Sites-Components",
         "order": 2
+    },
+    {
+        "category": "Foundation-Sites-Forms",
+        "order": 3
+    },
+    {
+        "category": "Foundation-Sites-Grid",
+        "order": 4
     }
 ]
