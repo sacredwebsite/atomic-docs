@@ -6,5 +6,37 @@
         "backgroundColor": "",
         "order": 1,
         "has_js": "true"
+    },
+    {
+        "component": "Abide",
+        "category": "Foundation-Sites",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "true"
+    },
+    {
+        "component": "Accordian",
+        "category": "Foundation-Sites",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "true"
+    },
+    {
+        "component": "AccordionMenu",
+        "category": "Foundation-Sites",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "true"
+    },
+    {
+        "component": "Badge",
+        "category": "Foundation-Sites",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "false"
     }
 ]
