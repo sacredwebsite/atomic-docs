@@ -1,13 +1,5 @@
 [
     {
-        "component": "test-component",
-        "category": "test-category",
-        "description": "test-description",
-        "backgroundColor": "",
-        "order": 1,
-        "has_js": "true"
-    },
-    {
         "component": "Abide",
         "category": "Foundation-Sites-Components",
         "description": "",
@@ -213,6 +205,134 @@
         "description": "",
         "backgroundColor": "",
         "order": 27,
+        "has_js": "false"
+    },
+    {
+        "component": "ProgressBar",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 28,
+        "has_js": "false"
+    },
+    {
+        "component": "ResponsiveMenu",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 29,
+        "has_js": "true"
+    },
+    {
+        "component": "ResponsiveToggle",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 30,
+        "has_js": "true"
+    },
+    {
+        "component": "Reveal",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 31,
+        "has_js": "true"
+    },
+    {
+        "component": "Slider",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 32,
+        "has_js": "true"
+    },
+    {
+        "component": "Sticky",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 33,
+        "has_js": "true"
+    },
+    {
+        "component": "Switch",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 34,
+        "has_js": "false"
+    },
+    {
+        "component": "Table",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 35,
+        "has_js": "false"
+    },
+    {
+        "component": "Tabs",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 36,
+        "has_js": "true"
+    },
+    {
+        "component": "Thumbnail",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 37,
+        "has_js": "false"
+    },
+    {
+        "component": "TitleBar",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 38,
+        "has_js": "false"
+    },
+    {
+        "component": "Toggler",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 39,
+        "has_js": "true"
+    },
+    {
+        "component": "Tooltip",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 40,
+        "has_js": "true"
+    },
+    {
+        "component": "TopBar",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 41,
+        "has_js": "false"
+    },
+    {
+        "component": "VisibilityClasses",
+        "category": "Foundation-Sites-Components",
+        "description": "",
+        "backgroundColor": "",
+        "order": 42,
+        "has_js": "false"
+    },
+    {
+        "component": "Forms",
+        "category": "Foundation-Sites-Forms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 42,
         "has_js": "false"
     }
 ]
