@@ -1,7 +1,7 @@
 .formGroup-check {
   margin-bottom: 24px;
   label {
-    font-weight: normal;
+    font-weight: 300;
     margin-bottom: 0;
   }
 }
@@ -27,7 +27,7 @@
   background: #222222;
 }
 
-.form-control {
+.formInput {
   box-sizing: border-box;
 }
 
@@ -50,13 +50,13 @@
   margin-bottom: 22px;
 }
 
-textarea.form-control {
-  height: 200px;
+textarea.formInput {
+  height: 150px;
   padding: 20px;
   text-indent: 0;
 }
 
-.form-control {
+.formInput {
   border-radius: 0;
   border: none;
   background: #fff;
@@ -67,6 +67,7 @@ textarea.form-control {
   width: 100%;
   height: 50px;
   font-size: 14px;
+  font-weight: 300;
   text-indent: 20px;
   box-shadow: none;
   padding: 0;
@@ -76,3 +77,6 @@ textarea.form-control {
     box-shadow: none;
   }
 }
+
+
+

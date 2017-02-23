@@ -9,7 +9,31 @@
 
 <script src="atomic-core/vendor/zero/ZeroClipboard.js"></script>
 <script src="atomic-core/vendor/newSort/jquery.fn.sortable.js"></script>
-<script src="atomic-core/js/min/compiled.min.js"></script>
+<script src="atomic-core/vendor/output-tab.js"></script>
+
+
+<script src="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+<script>
+    (function($){
+        $(window).on("load",function(){
+            $(".atoms-overflow").mCustomScrollbar({
+                theme:"minimal-dark"
+            });
+        });
+    })(jQuery);
+
+
+</script>
+
+
+
+
+
+
+
+
 
 
 
@@ -82,9 +106,14 @@
         <script>
             var editoroutput_<?php echo $i; ?> = ace.edit("editor-output-<?php echo $component['component'] ?>");
             var code = editoroutput_<?php echo $i; ?>.getValue();
+
+            var Emmet = require("ace/ext/emmet");
+
+            editoroutput_<?php echo $i; ?>.setOption("enableEmmet", true);
+
             editoroutput_<?php echo $i; ?>.getSession().setUseWorker(false);
             editoroutput_<?php echo $i; ?>.getSession().on('change', function () {
-                $("input[name=new-markup-val-<?php echo $component['component'] ?>]").val(editoroutput_<?php echo $i; ?>.getSession().getValue());
+                $("input[name=new-output-val-<?php echo $component['component'] ?>]").val(editoroutput_<?php echo $i; ?>.getSession().getValue());
             });
             var code = code.replace(/<!--(.*?)-->/g, '');
             var code = code.trim();
@@ -98,9 +127,6 @@
             editoroutput_<?php echo $i; ?>.setShowPrintMargin(false);
 
         </script>
-
-
-
 
 
 
@@ -125,6 +151,8 @@
             editorstyles_<?php echo $i; ?>.setShowPrintMargin(false);
 
         </script>
+
+
 
         <?php if ($component['has_js'] == "true") { ?>
             <script>
@@ -164,6 +192,33 @@ if (file_exists($filename)) {
 }
 ?>
 
+
+
+
+
+
+
+
+
+
+<?php 
+  //Uncomment the following include to enable client mode.
+  //include "clientmode.php" 
+?>
+
+
+
+
+
+
+<script src="atomic-core/js/min/compiled.min.js"></script>
+
+<script>
+    var monkeyList = new List('search-list', {
+        valueNames: ['name'],
+        plugins: [ ListFuzzySearch() ]
+    });
+</script>
 
 </body>
 </html>

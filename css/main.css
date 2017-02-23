@@ -1,5 +1,5 @@
 /* scss/readme/_settings.scss */
-/* scss/readme/_sidebar.scss */
+/* scss/readme/_sidebars.scss */
 /* scss/modules/_box.scss */
 .box {
   background: #eee;
@@ -13,9 +13,12 @@
   position: relative;
   left: 0;
   transition: left .25s;
-  background: #eee;
+  background: #ccf9bf;
   padding: 20px 40px;
   display: inline-block; }
 
 .clickAnimate {
   left: 80%; }
+
+/* scss/test/_more.scss */
+/* scss/test/_mas.scss */

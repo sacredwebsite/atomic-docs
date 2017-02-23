@@ -23,25 +23,25 @@ $stylesDir = $settings[0]['styles_directory'];
     <form id="form-edit-settings" class="aa_fileForm"  method="post">
         <div class="inputGroup">
             <label class="aa_label">Edit style directory name</label>
-            <input type="text" class="form-control" name="stylesDir" value="<?php echo $stylesDir ?>">
+            <input type="text" class="formInput" name="stylesDir" value="<?php echo $stylesDir ?>">
         </div>
         <div class="inputGroup">
             <label class="aa_label">Edit style file extension</label>
-            <input type="text" class="form-control" name="stylesExt"  value=".<?php echo $stylesExt ?>">
+            <input type="text" class="formInput" name="stylesExt" value=".<?php echo $stylesExt ?>">
         </div>
 
         <div class="inputGroup">
             <label class="aa_label">Edit component file directory name</label>
-            <input type="text" class="form-control" name="compDir"  value="<?php echo $compDir ?>">
+            <input type="text" class="formInput" name="compDir" value="<?php echo $compDir ?>">
         </div>
 
         <div class="inputGroup">
             <label class="aa_label">Change markup file extension</label>
-            <input type="text" class="form-control" name="compExt"  value=".<?php echo $compExt ?>">
+            <input type="text" class="formInput" name="compExt" value=".<?php echo $compExt ?>">
         </div>
 
 
-        <button class="aa_btn aa_btn-pos" type="submit" name="update_button" value="update">Update</button>
+        <button class="aa_btn aa_btn-full aa_btn-pos" type="submit" name="update_button" value="update">Update</button>
     </form>
 </div>
 
